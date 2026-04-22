@@ -1,0 +1,6 @@
+0.001
+0.0
+#timestep-should match with HISTORY or CONTROL - 
+#analysis - starts from this number # or value.
+#Note this file is optional.....the code can work even without these input detaisl..
+#it is better to avoid using this file...while executing the compiled version.
