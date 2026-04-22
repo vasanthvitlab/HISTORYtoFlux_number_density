@@ -1,0 +1,31 @@
+c1+c6+c14   UA molecules
+
+temperature      500
+ensemble nvt hoover   1.0000  1.0000
+
+steps          500000
+equilibration    500
+multiple step         1
+scale             10
+print            2000
+stack            200
+stats            200
+rdf              10000
+trajectory     2000 10 0
+
+timestep         0.001
+cutoff           13.800
+delr width       7.0000
+no electrostatics 
+shake tolerance  1.0E-5
+quaternion tolerance  1.0E-5
+
+print rdf
+zdensity
+restart scale
+
+job time           1900000.0
+close time          19000.00
+
+finish 
+
